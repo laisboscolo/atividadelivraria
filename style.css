@@ -1,0 +1,32 @@
+
+
+
+
+
+/* redes sociais */
+.sociais{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sociais li {
+    list-style: none;
+}
+
+.sociais li a{
+    display:inline-block;
+    margin: 5px 0;
+    /* altera a escala de tamanho */
+    transform: scale(0.6);
+    /* inverte a cor para branco */
+    filter: invert(1);
+}
+.sociais li a:hover{
+    color: var(--corSecundaria);
+    filter: invert(0);
+}
